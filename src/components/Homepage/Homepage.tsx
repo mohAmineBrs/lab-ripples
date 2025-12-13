@@ -26,6 +26,12 @@ const Homepage = () => {
           </p>
         </div>
       </div>
+      <div className={s.openOnDesktop}>
+        <p>
+          This experiment is based on mouse interaction, it'srecommended to open
+          it on desktop.
+        </p>
+      </div>
     </section>
   )
 }

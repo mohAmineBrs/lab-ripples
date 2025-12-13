@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@14islands/lerp':
+        specifier: ^1.0.3
+        version: 1.0.3
       '@react-three/drei':
         specifier: ^10.7.7
         version: 10.7.7(@react-three/fiber@9.4.2(@types/react@19.2.7)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)(three@0.182.0))(@types/react@19.2.7)(@types/three@0.182.0)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)(three@0.182.0)
@@ -89,6 +92,9 @@ importers:
         version: 7.2.7(@types/node@24.10.3)
 
 packages:
+
+  '@14islands/lerp@1.0.3':
+    resolution: {integrity: sha512-PiUuf2vrgMc+mk/VN0CaGdnm1E+UvWkstpPFQJ2Sxs9CEa05edWoBhmhjmSCSuEK072rCgXOUkyAYVKviTEqgg==}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -1769,6 +1775,9 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
+  lerp@1.0.3:
+    resolution: {integrity: sha512-70Rh4rCkJDvwWiTsyZ1HmJGvnyfFah4m6iTux29XmasRiZPDBpT9Cfa4ai73+uLZxnlKruUS62jj2lb11wURiA==}
+
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -2251,6 +2260,10 @@ packages:
         optional: true
 
 snapshots:
+
+  '@14islands/lerp@1.0.3':
+    dependencies:
+      lerp: 1.0.3
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -4026,6 +4039,8 @@ snapshots:
   keyv@4.5.4:
     dependencies:
       json-buffer: 3.0.1
+
+  lerp@1.0.3: {}
 
   levn@0.4.1:
     dependencies:

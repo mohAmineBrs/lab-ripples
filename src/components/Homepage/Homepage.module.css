@@ -1,6 +1,8 @@
 .section {
   width: 100%;
   min-height: 100vh;
+  z-index: 1;
+  position: relative;
 }
 
 .content {
@@ -15,9 +17,6 @@
   left: var(--gutter);
   bottom: calc(var(--gutter) * 2.5);
   max-width: 650px;
-  font-size: 0.79rem;
-  letter-spacing: 0.03rem;
-  line-height: 2;
   opacity: 0;
   transform: translateY(1rem);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -36,4 +35,25 @@
 
 .description a:hover {
   color: inherit;
+}
+
+.openOnDesktop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--text-color);
+  padding: var(--gutter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: none;
+  /* letter-spacing: 0.03rem; */
+}
+
+@media only screen and (max-width: 768px) {
+  .openOnDesktop {
+    display: flex;
+  }
 }

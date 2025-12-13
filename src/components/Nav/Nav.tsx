@@ -38,7 +38,7 @@ const Nav = () => {
           </a>
         </li>
         <li className={s.item}>
-          <a href="https://github.com/mohAmineBrs/lab-boilerplate">
+          <a href="https://github.com/mohAmineBrs/lab-ripples">
             <Code />
           </a>
         </li>
