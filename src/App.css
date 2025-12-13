@@ -10,7 +10,7 @@
   --background-color: #f5f5f5;
   --text-color: #020202;
   --green-color: #2cff05;
-  --gutter: 2rem;
+  --gutter: 1.5rem;
 }
 
 [data-theme="dark"] {
