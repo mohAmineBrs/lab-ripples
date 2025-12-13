@@ -1,0 +1,39 @@
+.section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.description {
+  position: absolute;
+  left: var(--gutter);
+  bottom: calc(var(--gutter) * 2.5);
+  max-width: 650px;
+  font-size: 0.79rem;
+  letter-spacing: 0.03rem;
+  line-height: 2;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.description.openInfo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.description a {
+  position: relative;
+  color: var(--green-color);
+  transition: color 0.3s ease;
+}
+
+.description a:hover {
+  color: inherit;
+}

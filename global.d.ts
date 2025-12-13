@@ -1,0 +1,6 @@
+declare module "*.glb"
+declare module "*.hdr"
+declare module "*.woff"
+declare module "*.css"
+declare module "*.svg"
+declare module "*.svg?react"
