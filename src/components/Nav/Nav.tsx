@@ -23,22 +23,22 @@ const Nav = () => {
           </a>
         </li>
         <li className={s.item}>
-          <a href="https://mooh.dev">
+          <a href="https://mooh.dev" target="_blank">
             <Site />
           </a>
         </li>
         <li className={s.item}>
-          <a href="https://www.linkedin.com/in/moohdev/">
+          <a href="https://www.linkedin.com/in/moohdev/" target="_blank">
             <LinkedIn />
           </a>
         </li>
         <li className={s.item}>
-          <a href="https://github.com/mohAmineBrs">
+          <a href="https://github.com/mohAmineBrs" target="_blank">
             <Github />
           </a>
         </li>
         <li className={s.item}>
-          <a href="https://github.com/mohAmineBrs/lab-ripples">
+          <a href="https://github.com/mohAmineBrs/lab-ripples" target="_blank">
             <Code />
           </a>
         </li>
