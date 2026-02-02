@@ -1,6 +1,6 @@
-import { shaderMaterial } from "@react-three/drei";
-import { extend } from "@react-three/fiber";
-import { Vector2 } from "three";
+import { shaderMaterial } from "@react-three/drei"
+import { extend } from "@react-three/fiber"
+import { Vector2 } from "three"
 
 export const RipplesMaterial = shaderMaterial(
   {
@@ -46,11 +46,9 @@ export const RipplesMaterial = shaderMaterial(
 
       gl_FragColor = final;
 
-      #include <colorspace_fragment>
-
     }
 
   `
-);
+)
 
-extend({ RipplesMaterial });
+extend({ RipplesMaterial })
